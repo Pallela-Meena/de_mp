@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: staging_layer
+    database: HOTEL_BOOKING
+    schema: STAGING
+    tables:
+      - name: country_region
+      - name: customers
+      - name: products
+      - name: transactions
+      
