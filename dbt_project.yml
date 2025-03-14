@@ -37,3 +37,6 @@ models:
     staging:
       +schema: prep
       +materialized: table
+    prep:
+      +schema: mart
+      +materialized: table
